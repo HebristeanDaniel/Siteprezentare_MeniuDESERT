@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deserturi | Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Hero Section -->
+<div id="hero-meniu" class="hero-section">
+    <div class="hero-content">
+        <h1>DESERTURI DELICIOASE</h1>
+        <h2>Experiențe dulci și rafinate</h2>
+        <p>Descoperă selecția noastră variată de deserturi și delectează-te cu fiecare gust. <br>
+           Fiecare desert este realizat cu pasiune pentru a-ți oferi o experiență unică.</p>
+    </div>
+</div>
+<div class="menu-section">
+    <div class="menu-container">
+        <div class="menu-image">
+            <img src="poze/meniu2.jpg" alt="Desert 2">
+        </div>
+        <div class="menu-content">
+            <h2 class="menu-title">MENIUL DE DESERTURI</h2>
+            <p class="menu-description">Fiecare desert din meniu este o capodoperă realizată cu măiestrie și dragoste pentru dulciuri. Descoperiți tartă de lămâie, cu un echilibru perfect între aciditate și dulceață, pavlova, ușoară și aerată, acoperită cu frișcă și fructe proaspete, și un soufflé de ciocolată servit cu înghețată de vanilie. 
+                <br><br>
+                                Vă invităm să explorați aceste delicii unice și să vă bucurați de o experiență dulce de neuitat.</p>
+              <div class="menu-buttons">
+                <a href="#meniu" class="menu-button">MENIUL DE DESERTURI</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Container Principal -->
+<div id="meniu" class="container">
+    <h1 class="titluMeniu">MENIU DESERTURI</h1>
+    <div class="deserts-container">
+        <div class="deserts-container">
+            <div class="desert" onclick="showDetails('lava-cake')">
+                <div class="image-container">
+                    <img src="poze/lavacake.jpg" alt="Lava Cake">
+                    <div class="overlay">
+                        <h3>Lava Cake</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">25 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('cheesecake')">
+                <div class="image-container">
+                    <img src="poze/cheesecake.jpg" alt="Cheesecake cu fructe">
+                    <div class="overlay">
+                        <h3>Cheesecake cu fructe</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">22 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('tiramisu')">
+                <div class="image-container">
+                    <img src="poze/tiramisu.jpg" alt="Tiramisu">
+                    <div class="overlay">
+                        <h3>Tiramisu</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">20 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('inghetata')">
+                <div class="image-container">
+                    <img src="poze/inghetata asortata.jpg" alt="Înghețată Asortată">
+                    <div class="overlay">
+                        <h3>Înghețată Asortată</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">25 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('papanasi')">
+                <div class="image-container">
+                    <img src="poze/papanasi.jpg" alt="Papanași">
+                    <div class="overlay">
+                        <h3>Papanași cu Gem de Afine</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">25 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('clatite')">
+                <div class="image-container">
+                    <img src="poze/clatite.jpg" alt="Clătite cu Ciocolată și Banane">
+                    <div class="overlay">
+                        <h3>Clătite cu Ciocolată și Banane</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">18 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('mousse-oreo')">
+                <div class="image-container">
+                    <img src="poze/mousse oreo.jpg" alt="Mousse Oreo">
+                    <div class="overlay">
+                        <h3>Mousse Oreo cu Topping de Ciocolată</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">25 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('pavlova')">
+                <div class="image-container">
+                    <img src="poze/pavlova.jpg" alt="Pavlova">
+                    <div class="overlay">
+                        <h3>Pavlova</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">25 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('souffle-ciocolata')">
+                <div class="image-container">
+                    <img src="poze/souffle ciocolata.jpg" alt="Soufflé de Ciocolată">
+                    <div class="overlay">
+                        <h3>Soufflé de Ciocolată</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">25 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('tarta-lamaie')">
+                <div class="image-container">
+                    <img src="poze/tarta cu lamaie.jpg" alt="Tartă de Lămâie">
+                    <div class="overlay">
+                        <h3>Tartă de Lămâie</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">25 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('brownie')">
+                <div class="image-container">
+                    <img src="poze/Brownie cu Nuci.jpg" alt="Brownie cu Nuci">
+                    <div class="overlay">
+                        <h3>Brownie cu Nuci</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">19 LEI</p>
+                     </div>
+                </div> 
+                <div class="desert" onclick="showDetails('cupcake')">
+                        <div class="image-container">
+                            <img src="poze/Cupcake cu Ciocolată și Zmeură.jpeg" alt="Cupcake cu Ciocolată și Zmeură">
+                            <div class="overlay">
+                                <h3>Cupcake cu Ciocolată și Zmeură</h3>
+                            </div>
+                        </div>
+                        <div class="desert-info">
+                            <p class="price">18 LEI</p>
+                </div> 
+            </div>
+            <div class="desert" onclick="showDetails('mousse-ciocolata')">
+                <div class="image-container">
+                    <img src="poze/Mousse de Ciocolată.jpg" alt="Mousse de Ciocolată">
+                    <div class="overlay">
+                        <h3>Mousse de Ciocolată</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">22 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('inghetata-mango')">
+                <div class="image-container">
+                    <img src="poze/Înghețată de Mango.jpg" alt="Înghețată de Mango">
+                    <div class="overlay">
+                        <h3>Înghețată de Mango</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">18 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('creme-brulee')">
+                <div class="image-container">
+                    <img src="poze/Creme Brûlée.jpg" alt="Creme Brûlée">
+                    <div class="overlay">
+                        <h3>Creme Brûlée</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">24 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('red-velvet')">
+                <div class="image-container">
+                    <img src="poze/Tort Red Velvet.jpg" alt="Tort Red Velvet">
+                    <div class="overlay">
+                        <h3>Tort Red Velvet</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">28 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('tarta-fructe')">
+                <div class="image-container">
+                    <img src="poze/Tartă cu Fructe de Pădure.jpg" alt="Tartă cu Fructe de Pădure">
+                    <div class="overlay">
+                        <h3>Tartă cu Fructe de Pădure</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">23 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('panna-cotta')">
+                <div class="image-container">
+                    <img src="poze/Panna Cotta.jpg" alt="Panna Cotta">
+                    <div class="overlay">
+                        <h3>Panna Cotta cu Fructe</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">25 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('tarta-mere')">
+                <div class="image-container">
+                    <img src="poze/Tartă cu Mere Caramelizate.jpg" alt="Tartă cu Mere Caramelizate">
+                    <div class="overlay">
+                        <h3>Tartă cu Mere Caramelizate</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">22 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('ecler')">
+                <div class="image-container">
+                    <img src="poze/Ecler cu Cremă de Vanilie.jpg" alt="Ecler cu Cremă de Vanilie">
+                    <div class="overlay">
+                        <h3>Ecler cu Cremă de Vanilie</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">17 LEI</p>
+                </div>
+            </div>
+            <div class="desert" onclick="showDetails('cozonac')">
+                <div class="image-container">
+                    <img src="poze/Cozonac cu Nuci.jpg" alt="Cozonac cu Nuci">
+                    <div class="overlay">
+                        <h3>Cozonac cu Nuci și Vanilie</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">30 LEI</p>
+                    </div>
+              </div>
+              <div class="desert" onclick="showDetails('macarons')">
+                <div class="image-container">
+                    <img src="poze/Macarons Asortate.jpg" alt="Macarons Asortate">
+                    <div class="overlay">
+                        <h3>Macarons Asortate</h3>
+                    </div>
+                </div>
+                <div class="desert-info">
+                    <p class="price">20 LEI</p>
+                </div>
+            </div>
+        </div>
+
+    </div>  </div>
+
+
+            <!-- Popup pentru detalii desert -->
+            <div id="desert-details" class="popup">
+                <div class="popup-content">
+                    <span class="close" onclick="closePopup()">&times;</span>
+                    <img id="popup-image" src="" alt="Desert">
+                    <h2 id="popup-title"></h2>
+                    <p id="popup-description"></p>
+                    <p id="popup-price"></p>
+                </div>
+            </div>
+
+      
+        <div class="menu-section">
+            <div class="menu-container">
+                <div class="menu-content">
+                    <h2 class="menu-title">AROME ȘI TEXTURI UNICE</h2>
+                    <p class="menu-description">Înghețata asortată, servită cu frișcă, vă aduce o explozie de răcoare. Mousse-ul Oreo, cu textura sa cremoasă și toppingul de ciocolată, satisface cele mai fine gusturi. În plus, papanașii noștri pufoși, cu gem de afine dulce și smântână proaspătă, sunt o invitație irezistibilă la o experiență culinară autentică.
+        <br><br>
+                        Descoperiți aceste delicii și lăsați-vă purtați de fiecare îmbucătură într-o lume de arome desăvârșite!</p>
+                    <div class="menu-buttons">
+                        <a href="#meniu" class="menu-button">MENIUL DE DESERTURI</a>
+                        
+                    </div>
+                </div> 
+                <div class="menu-image">
+                    <img src="poze/meniu.jpg" alt="Desert 2">
+                </div>
+            </div>
+        </div>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Restaurantul nostru are deserturi. Toate drepturile rezervate.</p>
+       
+        <p>Contact: <a href="mailto:contact@restaurant.ro">contact@restaurant.ro</a> | Telefon: +40 123 456 789</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
